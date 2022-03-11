@@ -34,7 +34,7 @@ const NavbarPrimary = () => {
     <>
       {/* Desktop */}
       <header
-        className={`${navbar ? "sticky-top bg-clear" : "sticky-top bg-clear"}`}
+        className={`${navbar ? "sticky-top bg-white" : "sticky-top bg-white"}`}
       >
         <nav className="py-2">
           <div className="px-4">

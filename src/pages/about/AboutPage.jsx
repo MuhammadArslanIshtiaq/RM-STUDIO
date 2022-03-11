@@ -19,7 +19,7 @@ const AboutPage = () => {
       <section
         className="min-vh-100 py-5 bg-cover"
         style={{
-          backgroundImage: "url(/assets/backgrounds/bg-section-01.jpg)",
+          backgroundImage: "url(/assets/backgrounds/bg-section-04.jpg)",
         }}
       >
         <div className="container-fullscreen">
