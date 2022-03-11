@@ -5,7 +5,7 @@ const VideoCard = ({ src, poster }) => {
     <>
       <div className="d-flex">
         <video
-          className="fullscreen"
+          className=""
           id="myVideo"
           loop="loop"
           muted="muted"

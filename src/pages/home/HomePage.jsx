@@ -15,9 +15,23 @@ const HomePage = () => {
             <ReactFullpage.Wrapper>
               <div className="section bg-sec1 text-white vh-100 fp-tableCell"></div>
               <div className="section bg-sec2 text-white vh-100 fp-tableCell"></div>
-              <div className="section bg-dark text-white vh-100 fp-tableCell">
-                <VideoCard src="/assets/backgrounds/bg-hero.mp4" />
+              <div className="section bg-dark text-white vh-50 fp-tableCell">
+                <div className="d-flex justify-content-center">
+                  <video
+                    playsinline="playsinline"
+                    autoplay="autoplay"
+                    muted="muted"
+                    loop="loop"
+                    controls
+                  >
+                    <source
+                      src="../../assets/backgrounds/bg-hero.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
               </div>
+
               <div className="section bg-sec4 text-white vh-100 fp-tableCell"></div>
               <div className="section bg-sec5 text-white vh-100 fp-tableCell"></div>
 
