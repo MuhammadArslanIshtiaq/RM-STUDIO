@@ -13,13 +13,13 @@ const HomePage = () => {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section bg-sec1 text-white fullscreen"></div>
-              <div className="section bg-sec2 text-white fullscreen"></div>
-              <div className="section bg-dark text-white vh-100">
+              <div className="section bg-sec1 text-white vh-100 fp-tableCell"></div>
+              <div className="section bg-sec2 text-white vh-100 fp-tableCell"></div>
+              <div className="section bg-dark text-white vh-100 fp-tableCell">
                 <VideoCard src="/assets/backgrounds/bg-hero.mp4" />
               </div>
-              <div className="section bg-sec4 text-white fullscreen"></div>
-              <div className="section bg-sec5 text-white fullscreen"></div>
+              <div className="section bg-sec4 text-white vh-100 fp-tableCell"></div>
+              <div className="section bg-sec5 text-white vh-100 fp-tableCell"></div>
 
               <div className="section bg-dark text-white">
                 <FooterPrimary />
