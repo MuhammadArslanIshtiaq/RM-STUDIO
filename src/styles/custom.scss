@@ -1,0 +1,366 @@
+// Then add additional custom code here
+
+html {
+  @media screen and (min-width: 2000px) {
+    font-size: 120%;
+  }
+  @media screen and (min-width: 2500px) {
+    font-size: 150%;
+  }
+  @media screen and (min-width: 3000px) {
+    font-size: 180%;
+  }
+  @media screen and (min-width: 3500px) {
+    font-size: 250%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+// .container-xxxl {
+//   width: 100%;
+//   margin-right: auto;
+//   margin-left: auto;
+//   @media screen and (min-width: 2000px) {
+//     max-width: 1900px;
+//   }
+// }
+
+.container {
+  @media screen and (min-width: 2000px) {
+    max-width: 1700px;
+  }
+  @media screen and (min-width: 2500px) {
+    max-width: 2300px;
+  }
+  @media screen and (min-width: 3000px) {
+    max-width: 2600px;
+  }
+  @media screen and (min-width: 3500px) {
+    max-width: 3300px;
+  }
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.top-20 {
+  top: 20px;
+}
+
+a {
+  text-decoration: unset;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-clear {
+  background: transparent !important;
+}
+
+.arrow-hover {
+  overflow: hidden;
+
+  &:hover {
+    i {
+      -webkit-animation: arrowMove 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: arrowMove 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+  }
+}
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.rounded-lg-top {
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.rounded-lg-bottom {
+  border-radius: 0 0 1rem 1rem !important;
+}
+
+.rounded-xl {
+  border-radius: 1.5rem !important;
+}
+
+.rounded-right-full {
+  border-radius: 0 50% 50% 0;
+}
+
+.form-control:focus,
+.select:focus,
+.btn {
+  box-shadow: unset !important;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.logo {
+  width: 12.75rem;
+  height: 2.75rem;
+  img {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  @media screen and (max-width: 640px) {
+    width: 6rem;
+    height: 2.75rem;
+
+    img {
+      object-fit: contain;
+    }
+  }
+}
+
+.icon-size {
+  display: block;
+  height: 4.375rem;
+  width: 4.375rem;
+  min-width: 4.375rem;
+
+  &-small {
+    display: inline-block;
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+
+  &-1 {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    min-width: 2rem;
+  }
+  &-2 {
+    display: block;
+    height: 6.25rem;
+    width: 6.25rem;
+    min-width: 6.25rem;
+  }
+  &-3 {
+    display: block;
+    height: 9.125rem;
+    width: 9.125rem;
+    min-width: 9.125rem;
+  }
+  &-4 {
+    display: block;
+    height: 12.5rem;
+    width: 12.5rem;
+    min-width: 12.5rem;
+  }
+}
+
+.height-size {
+  height: 52.125rem;
+  @media screen and (max-width: 500px) {
+    height: 25.5rem;
+  }
+  &-1 {
+    height: 30rem;
+
+    @media screen and (max-width: 500px) {
+      height: 17rem;
+    }
+  }
+  &-2 {
+    height: 14rem;
+  }
+  &-3 {
+    height: 22rem;
+
+    @media screen and (max-width: 500px) {
+      height: 15rem;
+    }
+  }
+}
+
+.h-100-all * {
+  height: 100%;
+}
+
+.filter-invert {
+  filter: invert(1);
+}
+
+.text-truncate-2 {
+  height: 46px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-center {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  border-right: 2px dotted #aeaeae;
+}
+
+.display-7 {
+  font-size: 1.9 rem !important;
+}
+// nav-links
+
+.btn {
+  padding: 0.6rem 1.5rem;
+
+  &:active {
+    transform: scale(1.03);
+  }
+}
+
+.btn-primary {
+  color: $white;
+
+  &:focus,
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-outline-primary {
+  &:hover {
+    color: $white;
+  }
+}
+
+.footer-content,
+.nav-links {
+  a,
+  .link {
+    font-size: 0.9rem;
+    color: $gray;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+    &.active,
+    &:focus,
+    &:hover {
+      color: $primary;
+    }
+
+    &.active {
+      font-weight: 500;
+    }
+  }
+}
+
+// sidebar
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 1070;
+  transition: all 0.5s ease;
+  top: 0;
+
+  &.show {
+    left: 0%;
+  }
+  &.hide {
+    left: -100%;
+  }
+}
+
+// fp-slides
+
+.fp-right {
+  background-color: $white;
+  padding: 0.3rem 0;
+  border-radius: 10rem;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: -0.4rem 0 0 -0.4rem;
+}
+
+#fp-nav ul li a span {
+  background: $primary;
+  height: 0.4rem;
+  width: 0.4rem;
+  margin: -0.2rem 0 0 -0.2rem;
+}
+
+// pills-line
+
+.nav-pills-line {
+  a {
+    color: $body-color;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &::after {
+      content: "";
+      display: flex;
+      margin: 0 auto;
+      height: 2px;
+      width: 0%;
+      background-color: $primary;
+      transition: all 0.3s ease;
+    }
+
+    &.active {
+      color: $primary;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// forms
+
+.cursor-pointer {
+  cursor: pointer;
+
+  * {
+    cursor: pointer;
+  }
+}
+
+// gallery-item
+
+.lg-react-element {
+  display: flex;
+  flex-wrap: wrap;
+  .gallery-item {
+    width: 24.99%;
+    overflow: hidden;
+
+    img {
+      transition: all 0.4s ease;
+    }
+
+    &:hover {
+      img {
+        transition: all 0.4s ease;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
