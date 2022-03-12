@@ -80,12 +80,6 @@ a {
   background: transparent !important;
 }
 
-.bg-sec3 {
-  background: url(../../public/assets/backgrounds/bg-hero.mp4) !important;
-  background-size: cover;
-  background-position: center;
-}
-
 .bg-sec1 {
   background-image: url(../../public/assets/backgrounds/bg-section-01.jpg);
   background-size: cover;
@@ -105,14 +99,56 @@ a {
   background-position: center;
 }
 
+.bg-sec2a {
+  background-image: url(../../public/assets/backgrounds/bg-section-02a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sec2b {
+  background-image: url(../../public/assets/backgrounds/bg-section-02b.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sec3 {
+  background: url(../../public/assets/backgrounds/bg-hero.mp4) !important;
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-sec4 {
   background-image: url(../../public/assets/backgrounds/bg-section-04.jpg);
   background-size: cover;
   background-position: center;
 }
 
+.bg-sec4a {
+  background-image: url(../../public/assets/backgrounds/bg-section-04a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sec4b {
+  background-image: url(../../public/assets/backgrounds/bg-section-04b.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-sec5 {
   background-image: url(../../public/assets/backgrounds/bg-section-05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sec5a {
+  background-image: url(../../public/assets/backgrounds/bg-section-05a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sec5b {
+  background-image: url(../../public/assets/backgrounds/bg-section-05b.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -448,4 +484,8 @@ full-bleed {
 
 #fp-nav {
   display: none !important;
+}
+
+.myvideo {
+  width: 60vw !important;
 }

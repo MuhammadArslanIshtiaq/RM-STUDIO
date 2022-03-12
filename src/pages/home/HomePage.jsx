@@ -13,15 +13,21 @@ const HomePage = () => {
           return (
             <ReactFullpage.Wrapper>
               <div className="section bg-sec1 vh-100 fp-tableCell"></div>
-              <div className="section bg-sec2 vh-100 fp-tableCell"></div>
-              <div className="section bg-light vh-50 fp-tableCell">
-                <div className="d-flex justify-content-center">
+              <div className="section container-fluid">
+                <div class="row">
+                  <div className="col-md-12 col-lg-6 bg-sec2a vh-100 br-sec2"></div>
+                  <div className="col-md-12 col-lg-6 bg-sec2b vh-100 bl-sec2"></div>
+                </div>
+              </div>
+              <div className="section bg-light vw-100 fp-tableCell">
+                <div className="d-flex justify-content-center align-items-center">
                   <video
                     playsinline="playsinline"
                     autoplay="autoplay"
                     muted="muted"
                     loop="loop"
                     controls
+                    className="myvideo"
                   >
                     <source
                       src="../../assets/backgrounds/bg-hero.mp4"
@@ -30,9 +36,18 @@ const HomePage = () => {
                   </video>
                 </div>
               </div>
-
-              <div className="section bg-sec4 text-white vh-100 fp-tableCell"></div>
-              <div className="section bg-sec5 text-white vh-100 fp-tableCell"></div>
+              <div className="section container-fluid">
+                <div class="row">
+                  <div className="col-md-12 col-lg-6 bg-sec4a vh-100"></div>
+                  <div className="col-md-12 col-lg-6 bg-sec4b vh-100"></div>
+                </div>
+              </div>
+              <div className="section container-fluid">
+                <div class="row">
+                  <div className="col-md-12 col-lg-6 bg-sec5a vh-100"></div>
+                  <div className="col-md-12 col-lg-6 bg-sec5b vh-100"></div>
+                </div>
+              </div>
 
               <div className="section bg-dark text-white">
                 <FooterPrimary />
