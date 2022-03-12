@@ -29,7 +29,7 @@ const HomePage = () => {
                   <Player controls autoplay loop muted>
                     <Video
                       crossOrigin=""
-                      poster="https://media.vimejs.com/poster.png"
+                      poster="../../assets/backgrounds/video-bg.png"
                     >
                       <source
                         data-src="../../assets/backgrounds/bg-hero.mp4"
