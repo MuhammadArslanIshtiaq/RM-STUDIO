@@ -55,7 +55,7 @@ const NavbarPrimary = () => {
                     <li>
                       <NavLink
                         to={item.link}
-                        className={`link text-capitalize d-none d-xl-inline-block text-black dinBold`}
+                        className={`link text-capitalize d-none d-xl-inline-block  dinBold`}
                       >
                         {item.name}
                       </NavLink>
