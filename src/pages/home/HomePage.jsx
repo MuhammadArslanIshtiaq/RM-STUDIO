@@ -1,4 +1,6 @@
 import React from "react";
+import { Player, Ui, Video } from "@vime/react";
+import "video-player-for-react/dist/index.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import FooterPrimary from "../../components/footers/FooterPrimary";
 const HomePage = () => {
@@ -23,17 +25,20 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="section bg-light vw-100 fp-auto-height-responsive">
-                <div className="d-flex justify-content-center align-items-center project">
-                  <span class="full-bleed">
-                    <video
-                      poster="https://studio-rm.com/assets/videos/1080p_1440h_none.jpg"
-                      src="../../assets/backgrounds/bg-hero.mp4"
-                      muted="muted"
-                      autoplay="autoplay"
-                      playsinline=""
-                      loop="loop"
-                    ></video>
-                  </span>
+                <div className="container d-flex justify-content-center align-items-center py-5 ">
+                  <Player controls autoplay loop muted>
+                    <Video
+                      crossOrigin=""
+                      poster="https://media.vimejs.com/poster.png"
+                    >
+                      <source
+                        data-src="../../assets/backgrounds/bg-hero.mp4"
+                        type="video/mp4"
+                      />
+                    </Video>
+
+                    {/* ... */}
+                  </Player>
                 </div>
               </div>
               <div className="section container-fluid fp-auto-height-responsive">

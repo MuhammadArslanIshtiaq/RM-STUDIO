@@ -184,10 +184,6 @@ a {
   position: relative;
 }
 
-.full-breed {
-  overflow: hidden;
-}
-
 .arrow-hover {
   overflow: hidden;
 
@@ -493,6 +489,6 @@ a {
   display: none !important;
 }
 
-.myvideo {
-  width: 75vw !important;
+vm-player[video] {
+  width: 60vw !important;
 }
