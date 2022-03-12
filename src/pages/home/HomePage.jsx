@@ -1,6 +1,5 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import VideoCard from "../../components/cards/VideoCard";
 import FooterPrimary from "../../components/footers/FooterPrimary";
 const HomePage = () => {
   return (
@@ -13,9 +12,9 @@ const HomePage = () => {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section bg-sec1 text-white vh-100 fp-tableCell"></div>
-              <div className="section bg-sec2 text-white vh-100 fp-tableCell"></div>
-              <div className="section bg-dark text-white vh-50 fp-tableCell">
+              <div className="section bg-sec1  vh-100 fp-tableCell"></div>
+              <div className="section bg-sec2  vh-100 fp-tableCell"></div>
+              <div className="section bg-light  vh-50 fp-tableCell">
                 <div className="d-flex justify-content-center">
                   <video
                     playsinline="playsinline"

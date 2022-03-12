@@ -26,8 +26,8 @@ const NavbarPrimary = () => {
   window.addEventListener("scroll", changeBackground);
 
   const links = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
+    { name: "HOME", link: "/" },
+    { name: "ABOUT", link: "/about" },
   ];
 
   return (
@@ -41,8 +41,10 @@ const NavbarPrimary = () => {
             <div className="d-flex align-items-center">
               <div className="me-auto d-flex align-items-center">
                 <Link to="/" className="d-flex align-items-center logo">
-                  <span class={`logo-dark display-6 fw-bold text-black`}>
-                    STUDIO
+                  <span
+                    class={`logo-dark display-6 fw-bold text-black dinBold`}
+                  >
+                    SHOWOFF
                   </span>
                 </Link>
               </div>
@@ -53,7 +55,7 @@ const NavbarPrimary = () => {
                     <li>
                       <NavLink
                         to={item.link}
-                        className={`link text-capitalize d-none d-xl-inline-block`}
+                        className={`link text-capitalize d-none d-xl-inline-block text-black dinBold`}
                       >
                         {item.name}
                       </NavLink>
@@ -102,7 +104,7 @@ const NavbarPrimary = () => {
                     <li>
                       <NavLink
                         to={item.link}
-                        className={`link text-capitalize d-inline-block`}
+                        className={`link text-capitalize d-inline-block text-black`}
                       >
                         {item.name}
                       </NavLink>

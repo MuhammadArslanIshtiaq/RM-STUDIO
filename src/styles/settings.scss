@@ -27,17 +27,17 @@ $blue: #2895ff;
 $black: #000000;
 
 $theme-colors: (
-  'primary': $primary,
-  'secondary': $secondary,
-  'danger': $danger,
-  'success': $success,
-  'warning': $warning,
-  'info': $info,
-  'light': $light,
-  'dark': $dark,
-  'blue': $blue,
-  'black': $black,
-  'gray': $gray,
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger,
+  "success": $success,
+  "warning": $warning,
+  "info": $info,
+  "light": $light,
+  "dark": $dark,
+  "blue": $blue,
+  "black": $black,
+  "gray": $gray,
 );
 
 $form-check-input-checked-bg-color: $primary;
@@ -48,4 +48,13 @@ $dropdown-link-hover-color: $primary;
 $table-hover-bg-factor: 1;
 $table-hover-bg: rgba($white, $table-hover-bg-factor);
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+@font-face {
+  font-family: DinBold;
+  src: url(../../public/assets/fonts/DIN_Bold.ttf);
+}
+@font-face {
+  font-family: Din;
+  src: url(../../public/assets/fonts/DIN.ttf);
+}
