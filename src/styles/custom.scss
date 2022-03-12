@@ -167,18 +167,14 @@ a {
 
 @media screen and (max-width: 768px) {
   .fp-tableCell {
-    height: 24rem !important;
+    height: 30rem !important;
   }
 }
 
 @media screen and (max-width: 440px) {
   .fp-tableCell {
-    height: 100vw !important;
+    height: 60vw !important;
   }
-}
-
-full-bleed {
-  overflow: hidden;
 }
 
 .arrow-hover {
@@ -487,5 +483,5 @@ full-bleed {
 }
 
 .myvideo {
-  width: 60vw !important;
+  width: 75vw !important;
 }
