@@ -489,12 +489,12 @@ a {
   display: none !important;
 }
 
-vm-player[video] {
-  width: 60vw !important;
+.myvideo {
+  width: 60vw;
 }
 
 @media screen and (max-width: 768px) {
-  vm-player[video] {
-    width: 90vw !important;
+  .myvideo {
+    width: 90vw;
   }
 }
