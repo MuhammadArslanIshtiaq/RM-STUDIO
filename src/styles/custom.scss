@@ -95,8 +95,8 @@ a {
 
 .bg-sec2 {
   background-image: url(../../public/assets/backgrounds/bg-section-02.jpg);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
 }
 
 .bg-sec2a {
@@ -106,9 +106,12 @@ a {
 }
 
 .bg-sec2b {
-  background-image: url(../../public/assets/backgrounds/bg-section-02b.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../../public/assets/backgrounds/bg-section-02c.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  background-color: #0f1015 !important;
 }
 
 .bg-sec3 {
