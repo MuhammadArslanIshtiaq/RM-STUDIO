@@ -17,19 +17,10 @@ const AboutPage = () => {
                 <div className="container-fullscreen">
                   <div className="text-middle text-center text-white">
                     <div className="container">
-                      <div
-                        className="heading-fancy-border p-4 mx-auto col-12 col-sm-10 col-md-6 col-xl-5 col-xxl-4"
-                        style={{ border: "0.8rem solid white" }}
-                      >
-                        <h1 className="text-lg display-2 fw-bold dinBold">
-                          SHOWOFF
-                        </h1>
-                        <hr className="py-1 px-4 bg-white opacity-100 d-lg-inline-block" />
-                        <p className="lead dinBold">
-                          This is about the democratization of luxury fashion
-                          through digitization
-                        </p>
-                      </div>
+                      <h2 className="pt-5 dinBold">
+                        This is about the democratization of luxury fashion
+                        through digitization
+                      </h2>
                     </div>
                   </div>
                 </div>

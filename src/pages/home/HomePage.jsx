@@ -14,7 +14,7 @@ const HomePage = () => {
             <ReactFullpage.Wrapper>
               <div className="section bg-sec1 vh-100 fp-tableCell"></div>
               <div className="section container-fluid">
-                <div class="row bg-dark">
+                <div className="row bg-dark">
                   <div className="col-lg-12 col-xl-6 bg-sec2a vh-100"></div>
                   <div className="col-lg-12 col-xl-6 bg-sec2b vh-100"></div>
                 </div>
@@ -33,13 +33,13 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="section container-fluid">
-                <div class="row">
+                <div className="row">
                   <div className="col-lg-12 col-xl-6 bg-sec4a vh-100"></div>
                   <div className="col-lg-12 col-xl-6 bg-sec4b vh-100"></div>
                 </div>
               </div>
               <div className="section container-fluid">
-                <div class="row">
+                <div className="row">
                   <div className="col-lg-12 col-xl-6 bg-sec5a vh-100"></div>
                   <div className="col-lg-12 col-xl-6 bg-sec5b vh-100"></div>
                 </div>

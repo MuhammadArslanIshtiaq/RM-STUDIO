@@ -41,9 +41,7 @@ const NavbarPrimary = () => {
             <div className="d-flex align-items-center">
               <div className="me-auto d-flex align-items-center">
                 <Link to="/" className="d-flex align-items-center logo">
-                  <span
-                    class={`logo-dark display-6 fw-bold text-black dinBold`}
-                  >
+                  <span className="logo-dark display-6 fw-bold text-black dinBold">
                     SHOWOFF
                   </span>
                 </Link>
@@ -63,7 +61,7 @@ const NavbarPrimary = () => {
                   ))}
                   <li>
                     <a
-                      href
+                      href="#"
                       type="button"
                       onClick={handleShow}
                       className="link icon-size-small d-xl-none"
@@ -86,7 +84,7 @@ const NavbarPrimary = () => {
             <div className="offcanvas-header bg-white w-100">
               <div className="d-flex align-items-center w-100 justify-content-between">
                 <Link to="/" className="logo d-flex align-items-center">
-                  <span class={`logo-dark display-6 fw-bold text-black`}>
+                  <span className="logo-dark display-6 fw-bold text-black">
                     STUDIO
                   </span>
                 </Link>
