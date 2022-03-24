@@ -17,7 +17,7 @@ const AboutPage = () => {
                 <div className="container-fullscreen">
                   <div className="text-middle text-center text-white">
                     <div className="container">
-                      <h2 className="pt-5 dinBold">
+                      <h2 className="pt-5 dinBold display-6">
                         This is about the democratization of luxury fashion
                         through digitization
                       </h2>

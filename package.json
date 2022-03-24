@@ -2,6 +2,7 @@
   "name": "studio-rm",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://showoff.fashion",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.22",
     "@testing-library/jest-dom": "^5.16.1",
